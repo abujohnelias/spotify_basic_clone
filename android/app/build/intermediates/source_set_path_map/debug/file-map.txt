@@ -1,0 +1,16 @@
+com.example.spotifyclone.app-jetified-annotation-experimental-1.1.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\38cecb4911faba3d74c87389c7fce477\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.spotifyclone.app-jetified-firebase-common-21.0.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\48180be4615de60cce1c6c11a0e8919e\transformed\jetified-firebase-common-21.0.0\res
+com.example.spotifyclone.app-jetified-window-1.0.0-beta04-2 C:\Users\ASUS\.gradle\caches\transforms-3\57adfcb65542737741d7fb160941007f\transformed\jetified-window-1.0.0-beta04\res
+com.example.spotifyclone.app-jetified-play-services-basement-18.3.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\8b916161ef8030910ebd6ff4375c89ae\transformed\jetified-play-services-basement-18.3.0\res
+com.example.spotifyclone.app-jetified-window-java-1.0.0-beta04-4 C:\Users\ASUS\.gradle\caches\transforms-3\cea453147246ee34221e2e0f28a4bdb1\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.spotifyclone.app-core-1.6.0-5 C:\Users\ASUS\.gradle\caches\transforms-3\ec3f6e370b81ce7ad843c8584703f6ce\transformed\core-1.6.0\res
+com.example.spotifyclone.app-packaged_res-6 C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.2.0\android\build\intermediates\packaged_res\debug
+com.example.spotifyclone.app-google-services-7 D:\Projects\spotifyclone\android\app\build\generated\res\google-services\debug
+com.example.spotifyclone.app-pngs-8 D:\Projects\spotifyclone\android\app\build\generated\res\pngs\debug
+com.example.spotifyclone.app-resValues-9 D:\Projects\spotifyclone\android\app\build\generated\res\resValues\debug
+com.example.spotifyclone.app-rs-10 D:\Projects\spotifyclone\android\app\build\generated\res\rs\debug
+com.example.spotifyclone.app-mergeDebugResources-11 D:\Projects\spotifyclone\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.spotifyclone.app-mergeDebugResources-12 D:\Projects\spotifyclone\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.spotifyclone.app-merged_res-13 D:\Projects\spotifyclone\android\app\build\intermediates\merged_res\debug
+com.example.spotifyclone.app-debug-14 D:\Projects\spotifyclone\android\app\src\debug\res
+com.example.spotifyclone.app-main-15 D:\Projects\spotifyclone\android\app\src\main\res

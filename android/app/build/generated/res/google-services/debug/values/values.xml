@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">993134944260</string>
+    <string name="google_api_key" translatable="false">AIzaSyDSdVk1auRhuGhwO_45VKp7KwUOfk9mkT8</string>
+    <string name="google_app_id" translatable="false">1:993134944260:android:a0eb33b7abe40640c2d551</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDSdVk1auRhuGhwO_45VKp7KwUOfk9mkT8</string>
+    <string name="google_storage_bucket" translatable="false">spotify12121abu.appspot.com</string>
+    <string name="project_id" translatable="false">spotify12121abu</string>
+</resources>
