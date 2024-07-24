@@ -1,8 +1,4 @@
-import 'dart:developer';
-
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:spotifyclone/common/helpers/is_dark_mode.dart';
 import 'package:spotifyclone/common/widgets/favorite_button/favorite_button.dart';

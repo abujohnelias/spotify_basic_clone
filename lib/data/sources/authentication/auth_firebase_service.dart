@@ -1,70 +1,3 @@
-// import 'dart:developer';
-
-// import 'package:cloud_firestore/cloud_firestore.dart';
-// import 'package:dartz/dartz.dart';
-// import 'package:firebase_auth/firebase_auth.dart';
-// import 'package:flutter/material.dart';
-// import 'package:spotifyclone/data/models/authentication/create_user_req.dart';
-// import 'package:spotifyclone/data/models/authentication/signin_user_req.dart';
-
-// abstract class AuthenticationFirebaseService {
-//   Future<Either> signUp(CreateUserReq createUserReq);
-
-//   Future<Either> signIn(SigninUserReq signinUserReq);
-// }
-
-// class AuthFirebaseServiceImpl extends AuthenticationFirebaseService {
-//   @override
-//   Future<Either> signIn(SigninUserReq signinUserReq) async {
-//     try {
-//       await FirebaseAuth.instance.signInWithEmailAndPassword(
-//         email: signinUserReq.email,
-//         password: signinUserReq.password,
-//       );
-
-//       return const Right("Signin was Sucessfull");
-//     } on FirebaseAuthException catch (e) {
-//       String message = '';
-//       if (e.code == 'invalid-email') {
-//         message = "No user found for this email";
-//       } else if (e.code == 'invalid-credential') {
-//         message = "Wrong password provided";
-//       }
-
-//       return left(message);
-//     }
-//   }
-
-//   @override
-//   Future<Either> signUp(CreateUserReq createUserReq) async {
-//     try {
-//       var data = await FirebaseAuth.instance.createUserWithEmailAndPassword(
-//         email: createUserReq.email,
-//         password: createUserReq.password,
-//       );
-
-//       FirebaseFirestore.instance.collection('Users').doc(data.user?.uid).set(
-//         {
-//           'name': createUserReq.fullName,
-//           'email': data.user?.email,
-//         },
-//       );
-//       return const Right("Signup was Sucessfull");
-//     } on FirebaseAuthException catch (e) {
-//       String message = '';
-//       if (e.code == 'weak-password') {
-//         message = "The password provided is too weak";
-//       } else if (e.code == 'email-already-in-use') {
-//         message = "An account already exists with this email";
-//       }
-//       //  else if (e.code == 'email-already-in-use') {
-//       //   message = "An account already exists with this email";
-//       // }
-//       return left(message);
-//     }
-//   }
-// }
-
 import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -129,29 +62,6 @@ class AuthenticationFirebaseServiceImpl extends AuthenticationFirebaseService {
       return Left(message);
     }
   }
-
-  // @override
-  // Future<Either> getUser() async {
-  //   try {
-  //     log('1');
-  //     FirebaseAuth firebaseAuth = FirebaseAuth.instance;
-  //     FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
-  //     log('2');
-  //     var user = await firebaseFirestore
-  //         .collection('Users')
-  //         .doc(firebaseAuth.currentUser?.uid)
-  //         .get();
-  //     log('3');
-  //     UserModel userModel = UserModel.fromJson(user.data()!);
-  //     userModel.imageURL =
-  //         firebaseAuth.currentUser?.photoURL ?? AppURLs.defaultProfileImage;
-  //     UserEntity userEntity = userModel.toEntity();
-  //     log(userEntity.toString(), name: "ath service");
-  //     return Right(userEntity);
-  //   } catch (e) {
-  //     return const Left('An error occured, please try again');
-  //   }
-  // }
 
   @override
   Future<Either> getUser() async {
